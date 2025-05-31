@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body>
+    <header>
+       <a href="#" class="logo"><i class="fa-solid fa-utensils"></i>resto.</a> 
+      <nav class="navbar">
+            <a class="active" href="#home" >home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+   
+
+  <!-- search-box code -->
+    <form action="" id="search-form">
+      <input type="search" placeholder="search here.." id="search-box">
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+<!-- home page code -->
+ <section class="home" id="home">
+<div class=" swiper-container home-slider">
+  <div class="swiper-wrapper wrapper">
+    <div class=" slide swiper-slide">
+      <div class="content">
+        <span>Our Special Dish</span>
+        <h3>spicy nodddles</h3>
+        <p>Noodles are a type of food made from unleavened dough which is either rolled flat and cut, stretched, or extruded, into long strips or strings</p>
+        <a href="#" class="btn">Order Now</a>
+      </div>
+      <div class="image">
+        <img src="https://img.freepik.com/premium-photo/pasta-noodles-with-chicken-meat-sliced-vegetables-bowl-white-background_1092425-2390.jpg?ga=GA1.1.1557690608.1723868385&semt=ais_hybridd" alt="noodles">
+      </div>
+    </div>
+    <div class="slide swiper-slide">
+      <div class="content">
+        <span>Our Special Dish</span>
+        <h3>Manchurian🥗🥘</h3>
+        <p> Manchurian is a popular Indo-Chinese dish consisting of tender chicken pieces that are marinated, deep-fried until crispy, and then sautéed in a flavorful, aromatic Manchurian sauce made with a combination of ingredients like soy sauce, ginger, garlic, and various seasonings.</p>
+        <a href="#" class="btn">Order Now</a>
+      </div>
+      <div class="image">
+        <img src="https://img.freepik.com/premium-photo/serving-spanish-albondigas-en-salsa-meatballs-rich-tomato-almond-sauce-garnished_220770-62075.jpg?ga=GA1.1.1557690608.1723868385&semt=ais_hybrid" alt="noodles">
+      </div>
+    </div>
+    <div class="slide swiper-slide">
+      <div class="content">
+        <span>Our Special Dish</span>
+        <h3> yammi 🤤🤤Momos</h3>
+        <p> Momos are a type of steamed filled dumpling in Tibetan and Nepali cuisine that is also popular in neighbouring Bhutan and India. The majority of Tibetan momos are half-moon in shape like jiaozi, while Nepali momos are normally round like baozi.</p>
+        <a href="#" class="btn">Order Now</a>
+      </div>
+      <div class="image">
+        <img src="https://img.freepik.com/premium-photo/momos-steamed-dumplings-garnished-with-coriander-leaves-by-two-small-bowls-dipping-sauces_1115211-1441.jpg?ga=GA1.2.1557690608.1723868385&semt=ais_hybrid" alt="momos">
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+  <div class="swiper-pagination"></div>
+</div>
+
+ </section>
+
+ <!-- dises section start -->
+
+<section class="dishes" id="dishes">
+  <h3 class="sub-heading">Our Dishes</h3>
+  <h1 class="heading">Popular dishes</h1>
+<div class="box-container">
+  <div class="box">
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-eye"></a>
+    <img src="https://img.freepik.com/free-photo/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese_90220-1063.jpg?ga=GA1.1.1557690608.1723868385&semt=ais_hybrid" >
+    <h3>Tasty food</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <span>$12.88</span>
+    <a href="#" class="btn">add to cart</a>
+  </div>
+  <div class="box">
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-eye"></a>
+    <img src="https://img.freepik.com/premium-photo/transparent-backdrop-featuring-chunks-chicken-dish-biryani_1234908-1811.jpg?ga=GA1.1.1557690608.1723868385&semt=ais_hybrid" >
+    <h3>Tasty food</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <span>$14.88</span>
+    <a href="#" class="btn">add to cart</a>
+  </div>
+  <div class="box">
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-eye"></a>
+    <img src="https://img.freepik.com/premium-photo/indian-cuisine-sweet-spicy-paneer-pasanda-served-with-garlic-naan-white-background_55610-3096.jpg?ga=GA1.1.1557690608.1723868385&semt=ais_hybrid" >
+    <h3>Tasty food</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <span>$15.88</span>
+    <a href="#" class="btn">add to cart</a>
+  </div>
+  <div class="box">
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-eye"></a>
+    <img src="https://img.freepik.com/free-photo/delicious-italian-pizza-with-tomato-olives-pepperoni-mushrooms-top-view-isolated-white-background-still-life-copy-space_639032-281.jpg?ga=GA1.1.1557690608.1723868385&semt=ais_hybrid" >
+    <h3>Tasty food</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <span>$16.88</span>
+    <a href="#" class="btn">add to cart</a>
+  </div>
+  <div class="box">
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-eye"></a>
+    <img src="https://img.freepik.com/premium-photo/photography-indian-dhokla-plate-plate_1288657-49736.jpg?ga=GA1.1.1557690608.1723868385&semt=ais_hybrid" >
+    <h3>Tasty food</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <span>$17.88</span>
+    <a href="#" class="btn">add to cart</a>
+  </div>
+  <div class="box">
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-eye"></a>
+    <img src="https://img.freepik.com/free-psd/top-view-traditional-indian-dessert_23-2150634514.jpg?ga=GA1.1.1557690608.1723868385&semt=ais_hybrid" >
+    <h3>Tasty food</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <span>$12.88</span>
+    <a href="#" class="btn">add to cart</a>
+  </div>
+  <div class="box">
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-eye"></a>
+    <img src="https://img.freepik.com/premium-photo/indian-cuisine-special-sweet-spicy-paneer-pasanda-served-with-garlic-naan-white-background_55610-3103.jpg?ga=GA1.1.1557690608.1723868385&semt=ais_hybrid" >
+    <h3>Tasty food</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <span>$18.88</span>
+    <a href="#" class="btn">add to cart</a>
+  </div>
+  <div class="box">
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-eye"></a>
+    <img src="https://img.freepik.com/free-photo/pilaf-bowl-spices-white-background-top-view_185193-162377.jpg?ga=GA1.1.1557690608.1723868385&semt=ais_hybrid" >
+    <h3>Tasty food</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <span>$21.88</span>
+    <a href="#" class="btn">add to cart</a>
+  </div>
+</div>
+</section>
+
+
+<!-- about section start -->
+<section class="about" id="about">
+  <h3 class="sub-heading">about us</h3>
+  <h1 class="heading">why choose us</h1>
+  <div class="row">
+
+    <div class="image">
+      <img src="https://img.freepik.com/free-photo/farfalle-pasta-with-meatballs-spinach-sauce-with-fried-chickpeas_2829-18269.jpg?ga=GA1.1.1557690608.1723868385&semt=ais_hybrid">
+    </div>
+
+    <div class="content">
+      <h3>best food in the country</h3>
+      <p>A restaurant kitchen is organised by being divided into 6 sections. These sections are Veg, Larder, Fish, Meat, Pastry and the Pass. Each section performs a vital role in the smooth operation and flow of orders during a busy service.</p>
+      <p>In larger kitchens these can be clearly defined physical sections. In smaller kitchens there needs to be a bit more fluidity in the way the sections operate. What ever the set up, this article will show readers each section of a kitchen and the role each one plays.</p>
+      <div class="icons-container">
+        <div class="icons">
+          <i class="fas fa-shipping-fast"></i>
+          <span>free Delivery</span>
+        </div>
+        <div class="icons">
+          <i class="fa-solid fa-dollar-sign"></i>
+          <span>easy payments</span>
+        </div>
+        <div class="icons">
+          <i class="fas fa-headset"></i>
+          <span>24/7 service</span>
+        </div>
+      </div>
+      <a href="#" class="btn">learn more</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- menu section starts here -->
+
+<section class="menu" id="menu">
+  <h3 class="sub-heading">Our Menu</h3>
+  <h1 class="heading">today's speaciality</h1>
+  <div class="box-container">
+    <div class="box">
+      <div class="image">
+        <img src="https://img.freepik.com/free-photo/stir-fried-crab-with-curry_1203-7514.jpg?ga=GA1.2.1557690608.1723868385&semt=ais_hybrid" >
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+      <div class="content">
+        <div class="starts">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <h3>delicious food</h3>
+        <p>Indian food is different from rest of the world not only in taste but also in cooking methods. It reflects a perfect blend of various cultures and ages. </p>
+        <a href="#" class="btn">Add To Cart</a>
+        <span class="price">$12.95</span>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="https://img.freepik.com/premium-psd/plate-food-with-picture-chicken-vegetables_68880-156636.jpg?ga=GA1.2.1557690608.1723868385&semt=ais_hybrid" >
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+      <div class="content">
+        <div class="starts">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <h3>delicious food</h3>
+        <p>India is a big country with many states and regions. Each region   offers a unique assortment of dishes and cooking techniques. </p>
+        <a href="#" class="btn">Add To Cart</a>
+        <span class="price">$15.95</span>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="https://img.freepik.com/premium-photo/delicious-dishes-with-meat-white-background_446633-5291.jpg?ga=GA1.2.1557690608.1723868385&semt=ais_hybrid" >
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+      <div class="content">
+        <div class="starts">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <h3>delicious food</h3>
+        <p>Foods of India are better known for its spiciness. Throughout India, be it North India or South India, spices are used generously in food. </p>
+        <a href="#" class="btn">Add To Cart</a>
+        <span class="price">$14.95</span>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="https://img.freepik.com/premium-psd/plate-food-with-chicken-vegetables-it_68880-156092.jpg?ga=GA1.2.1557690608.1723868385&semt=ais_hybrid" >
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+      <div class="content">
+        <div class="starts">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <h3>delicious food</h3>
+        <p>But on the other hand states like the Punjab, Haryana and Uttar Pradesh show high consumption of chapatis. </p>
+        <a href="#" class="btn">Add To Cart</a>
+        <span class="price">$13.95</span>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="https://img.freepik.com/premium-photo/delicious-pav-bhaji-isolated-white-background_787273-21344.jpg?ga=GA1.2.1557690608.1723868385&semt=ais_hybrid" >
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+      <div class="content">
+        <div class="starts">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <h3>delicious food</h3>
+        <p>In western India, the desert cuisine is famous for its unique taste and varieties of food.This is very delicious.</p>
+        <a href="#" class="btn">Add To Cart</a>
+        <span class="price">$17.95</span>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="https://img.freepik.com/premium-photo/pupusas-white-background-food-photography-highquality-images-capture-traditional-flavors_763042-1135.jpg?ga=GA1.2.1557690608.1723868385&semt=ais_hybrid" >
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+      <div class="content">
+        <div class="starts">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <h3>delicious food</h3>
+        <p>In the eastern India, the Bengali and Assamese styles of cooking are noticeable.  </p>
+        <a href="#" class="btn">Add To Cart</a>
+        <span class="price">$13.78</span>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="https://img.freepik.com/premium-psd/plate-food-with-picture-food-with-letter-k-it_68880-156403.jpg?ga=GA1.2.1557690608.1723868385&semt=ais_hybrid" >
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+      <div class="content">
+        <div class="starts">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <h3>delicious food</h3>
+        <p>In the states like Maharashtra, the food is usually a mix of both north as well as south cooking styles.
+          this is very delicious.  </p>
+        <a href="#" class="btn">Add To Cart</a>
+        <span class="price">$16.78</span>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="https://img.freepik.com/free-photo/indian-butter-chicken-black-bowl-isolated-white-background_123827-20452.jpg?ga=GA1.2.1557690608.1723868385&semt=ais_hybrid" >
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+      <div class="content">
+        <div class="starts">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <h3>delicious food</h3>
+        <p>In Goa, that is further down towards south, one can notice Portuguese influence in the cooking style as well as in the dishes. </p>
+        <a href="#" class="btn">Add To Cart</a>
+        <span class="price">$14.89</span>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="https://img.freepik.com/premium-photo/khaman-dhokla-chaat-is-very-simple-refreshing-fusion-chaat-recipe-made-using-leftover-dhokla_466689-86568.jpg?ga=GA1.2.1557690608.1723868385&semt=ais_hybrid" >
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+      <div class="content">
+        <div class="starts">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <h3>delicious food</h3>
+        <p>In the southern India, the states make great use of spices, fishes and coconuts, as most of them have coastal kitchens.  </p>
+        <a href="#" class="btn">Add To Cart</a>
+        <span class="price">$19.89</span>
+      </div>
+    </div>
+    </div>
+</section>
+
+
+<!-- revie section start -->
+
+<section class="review" id="review">
+  <h3 class="sub-heading">customer's review</h3>
+  <h1 class="heading">what they say</h1>
+
+  <div class="review-slider swiper-container">
+    <div class=" swiper-wrapper">
+      <div class=" swiper-slide slide">
+        <i class="fas fa-quote-right"></i>
+        <div class="user">
+          <img src="https://img.freepik.com/free-photo/portrait-smiling-man-outdoors-with-beanie_23-2149256267.jpg?ga=GA1.2.1557690608.1723868385&semt=ais_hybrid" alt="">
+          <div class="user-info">
+          <h3>Adrian </h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+      <p>This is the shraadha meal that is eaten by many Hindu families in southern India on the death anniversaries of close family members – in this case, the anniversary of my father-in-law’s passing</p>
+    </div>
+
+      <div class=" swiper-slide slide">
+        <i class="fas fa-quote-right"></i>
+        <div class="user">
+          <img src="https://img.freepik.com/free-photo/businessman-with-jacket_23-2147996566.jpg?ga=GA1.2.1557690608.1723868385&semt=ais_hybrid" alt="">
+          <div class="user-info">
+          <h3>Christian </h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        
+        </div>
+      </div>
+      <p>In a country famous for its rich red curries made from tomatoes (introduced by the Portuguese) and the texture of its naan (from Central Asia), many of the most famous ingredients .</p>
+    </div>
+
+      <div class=" swiper-slide slide">
+        <i class="fas fa-quote-right"></i>
+        <div class="user">
+          <img src="https://img.freepik.com/premium-photo/photo-portrait-broker-against-background-city-style-raw-stylize-250-job-id-3fcc3d31f0504b5f839125a84e023a85_939033-116981.jpg?ga=GA1.2.1557690608.1723868385&semt=ais_hybrid" alt="">
+          <div class="user-info">
+          <h3>Daniel </h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+         
+        </div>
+      </div>  
+      <p>However, the food eaten after the religious shraadha rite showcases the indigenous biodiversity of the Indian subcontinent, many of the most famous ingredients . </p>
+    </div>
+
+      <div class=" swiper-slide slide">
+        <i class="fas fa-quote-right"></i>
+        <div class="user">
+          <img src="https://img.freepik.com/free-photo/medium-shot-smiley-man-holding-phone_23-2149155173.jpg?ga=GA1.2.1557690608.1723868385&semt=ais_hybrid" alt="">
+          <div class="user-info">
+          <h3>Emilio </h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+      <p>However, the food eaten after the religious shraadha rite showcases the indigenous biodiversity of the Indian subcontinent, many of the most famous ingredients . </p>
+    </div>
+
+      <div class=" swiper-slide slide">
+        <i class="fas fa-quote-right"></i>
+        <div class="user">
+          <img src="https://img.freepik.com/free-photo/front-view-smiley-man-posing_23-2149915906.jpg?ga=GA1.2.1557690608.1723868385&semt=ais_hybrid" alt="">
+          <div class="user-info">
+          <h3>Kacper </h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <p>“I will also prepare five bakshanam,” he said, referring to the fried snacks that will decorate the banana leaves on which the meal will be served. The desserts were sweetened with jaggery . </p>
+
+    </div>
+  </div>
+
+</div>
+
+</section>
+
+
+<!-- order section start -->
+
+<section class="order" id="order">
+  <h3 class="sub-heading">order now</h3>
+  <h1 class="heading">free and fast</h1>
+  <form action="">
+    <div class="inputBox">
+      <div class="input">
+        <span>Your Name</span>
+        <input type="text" placeholder="enter your name">
+      </div>
+      <div class="input">
+        <span>Your number</span>
+        <input type="number" placeholder="enter your number">
+      </div>
+      <div class="input">
+        <span>Your order</span>
+        <input type="text" placeholder="enter food name">
+      </div>
+      <div class="input">
+        <span>additional food</span>
+        <input type="text" placeholder="extra with food">
+      </div>
+      <div class="input">
+        <span>how much</span>
+        <input type="number" placeholder="how many orders">
+      </div>
+      <div class="input">
+        <span>date and time</span>
+        <input type="datetime-local" >
+      </div>
+      <div class="input">
+        <span>your address</span>
+        <textarea name=""placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+      </div>
+      <div class="input">
+        <span>your message</span>
+        <textarea name=""placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+      </div>
+    </div>
+<input type="submit" value="order now" class="btn">
+
+
+  </form>
+
+</section>
+
+<!-- footer starst here -->
+
+<section class="footer">
+  <div class="box-container">
+    <div class="box">
+      <h3>locations</h3>
+      <a href="#">india</a>
+      <a href="#">japan</a>
+      <a href="#">russia</a>
+      <a href="#">USa</a>
+      <a href="#">france</a>
+    </div>
+    <div class="box">
+      <h3>quick links</h3>
+      <a href="#">home</a>
+      <a href="#">dishes</a>
+      <a href="#">about</a>
+      <a href="#">menu</a>
+      <a href="#">review</a>
+      <a href="#">order</a>
+    </div>
+
+    <div class="box">
+      <h3>contact info</h3>
+      <a href="#">+123-654-9087</a>
+      <a href="#">+111-222-8976</a>
+      <a href="#">fooddelivy@345gmail.com</a>
+      <a href="#">rakesh@234gmail.com</a>
+      <a href="#">mumbai,india-400140</a>
+    </div> 
+
+    <div class="box">
+      <h3>follow us </h3>
+      <a href="#">facebook</a>
+      <a href="#">twitter</a>
+      <a href="#">instagram</a>
+      <a href="#">linkedin</a>
+    </div> 
+
+  </div>
+  <div class="credit">
+    &copy;copyright 2024 by <span>Pranjal Soni</span>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
